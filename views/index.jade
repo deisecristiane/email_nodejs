@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1 Enviando Email com Nodemailer.
+  form(action="/enviar", method="post", ) 
+    div.principal1
+      label(for="nomeCompleto") Nome Completo: 
+      input(type="text", name="nome", id="nomeCompleto")  
+      label(for="email") Email:
+      input(type="text", name="email", id="email")
+      button(type="submit") Enviar

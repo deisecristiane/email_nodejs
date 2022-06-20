@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h1{
+  text-align: center;
+  color: aliceblue;
+}
+a {
+  color: #00B7FF;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.principal1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+input{
+  width: 500px;
+  border-radius: 5px;
+  
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+
+
+}
+label{
+  color: aliceblue;
+  width: 500px;
+  padding-top: 25px;
+}
+button{
+  
+  width: 500px;
+  padding: 25px ;
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 20px;
+  
+}
+button:hover,button:focus{
+  background-color:rgb(138, 95, 179) ;
+}
